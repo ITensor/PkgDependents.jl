@@ -1,0 +1,7 @@
+name = "PkgDependents"
+uuid = "ae191fcf-7ec6-40a6-95c9-dedb80b28f91"
+authors = ["ITensor developers <support@itensor.org> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
