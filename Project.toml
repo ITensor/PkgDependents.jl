@@ -1,6 +1,6 @@
 name = "PkgDependents"
 uuid = "ae191fcf-7ec6-40a6-95c9-dedb80b28f91"
-version = "0.1.12"
+version = "0.1.13"
 authors = ["ITensor developers <support@itensor.org> and contributors"]
 
 [deps]
