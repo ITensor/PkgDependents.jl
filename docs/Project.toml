@@ -1,9 +1,12 @@
 [deps]
+PkgDependents = "ae191fcf-7ec6-40a6-95c9-dedb80b28f91"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
-PkgDependents = "ae191fcf-7ec6-40a6-95c9-dedb80b28f91"
 
 [compat]
+PkgDependents = "0.1"
 Documenter = "1"
 Literate = "2"
-PkgDependents = "0.1"
+
+[sources.PkgDependents]
+path = ".."
