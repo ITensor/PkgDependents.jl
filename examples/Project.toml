@@ -1,5 +1,8 @@
 [deps]
 PkgDependents = "ae191fcf-7ec6-40a6-95c9-dedb80b28f91"
 
+[sources.PkgDependents]
+path = ".."
+
 [compat]
 PkgDependents = "0.1"
