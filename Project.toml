@@ -1,7 +1,10 @@
 name = "PkgDependents"
 uuid = "ae191fcf-7ec6-40a6-95c9-dedb80b28f91"
-version = "0.1.13"
+version = "0.1.14"
 authors = ["ITensor developers <support@itensor.org> and contributors"]
+
+[workspace]
+projects = ["benchmark", "dev", "docs", "examples", "test"]
 
 [deps]
 RegistryInstances = "2792f1a3-b283-48e8-9a74-f99dce5104f3"
