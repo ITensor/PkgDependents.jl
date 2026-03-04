@@ -1,9 +1,10 @@
 using Documenter: Documenter, DocMeta, deploydocs, makedocs
+using ITensorFormatter: ITensorFormatter
 using PkgDependents: PkgDependents
 
 DocMeta.setdocmeta!(PkgDependents, :DocTestSetup, :(using PkgDependents); recursive = true)
 
-include("make_index.jl")
+ITensorFormatter.make_index!(pkgdir(PkgDependents))
 
 makedocs(;
     modules = [PkgDependents],
