@@ -79,7 +79,7 @@ function dependencies(
 end
 
 to_registry(registry::RegistryInstances.RegistryInstance) = registry
-to_registry(registryname::String) =  registryinstance_from_registryname(registryname)
+to_registry(registryname::String) = registryinstance_from_registryname(registryname)
 
 function dependents(
         pkgname::String; registries = RegistryInstances.reachable_registries(), weakdeps = true
